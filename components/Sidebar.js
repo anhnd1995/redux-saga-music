@@ -1,19 +1,19 @@
 import React from "react";
+import Link from "next/link";
 import styled from "styled-components";
 import InlineSVG from "./InlineSVG";
-import Link from "next/link";
 
 export default function Sidebar() {
   return (
     <Styles>
       <div className="logo">
-        <InlineSVG src="\images\icons\spotify.svg" width="40px" height="40px" />
+        <InlineSVG src="/images/icons/spotify.svg" width="40px" height="40px" />
       </div>
       <SidebarNav>
         <Link href="#">
           <a className="sidebar-item active">
             <InlineSVG
-              src="\images\icons\home.svg"
+              src="/images/icons/home.svg"
               width="20px"
               height="auto"
               color="white"
@@ -23,7 +23,7 @@ export default function Sidebar() {
         <Link href="#">
           <a className="sidebar-item">
             <InlineSVG
-              src="\images\icons\compass.svg"
+              src="/images/icons/compass.svg"
               width="20px"
               height="20px"
               color="white"
@@ -33,7 +33,7 @@ export default function Sidebar() {
         <Link href="#">
           <a className="sidebar-item">
             <InlineSVG
-              src="\images\icons\microphone-black-shape.svg"
+              src="/images/icons/microphone-black-shape.svg"
               width="20px"
               height="20px"
               color="white"
@@ -43,7 +43,7 @@ export default function Sidebar() {
         <Link href="#">
           <a className="sidebar-item">
             <InlineSVG
-              src="\images\icons\trending.svg"
+              src="/images/icons/trending.svg"
               width="20px"
               height="20px"
               color="white"
@@ -53,7 +53,7 @@ export default function Sidebar() {
         <Link href="#">
           <a className="sidebar-item">
             <InlineSVG
-              src="\images\icons\more-white.svg"
+              src="/images/icons/more-white.svg"
               width="20px"
               height="20px"
               color="white"

@@ -37,4 +37,5 @@ export const GlobalStyles = createGlobalStyle`
   display: block;
   max-width: 100%;
   }
+
 `;

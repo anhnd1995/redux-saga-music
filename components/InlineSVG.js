@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
 import React from "react";
 import styled, { css } from "styled-components";
 import SVG from "react-inlinesvg";
+import PropTypes from "prop-types";
 
 const IconStyles = styled.div`
   display: inline-flex;
