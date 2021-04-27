@@ -22,6 +22,10 @@ const IconStyles = styled.div`
         fill: ${(props) => props.color};
       }
     `};
+
+  svg {
+    height: 100%;
+  }
 `;
 
 const IconSVG = ({
@@ -40,7 +44,7 @@ const IconSVG = ({
       width={width}
       height={height}
     >
-      <SVG src={src}></SVG>
+      <SVG src={src} width={width} height={height}></SVG>
     </IconStyles>
   );
 };
