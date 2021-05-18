@@ -8,6 +8,7 @@ const IconStyles = styled.div`
   align-items: center;
   width: ${(props) => props.width || "100%"};
   height: ${(props) => props.height || "100%"};
+  cursor: pointer;
   ${(props) =>
     props.stroke &&
     css`
@@ -26,6 +27,11 @@ const IconStyles = styled.div`
   svg {
     height: 100%;
   }
+  ${(props) =>
+    props.className === "--gray" &&
+    css`
+      filter: grayscale(100%);
+    `};
 `;
 
 const IconSVG = ({

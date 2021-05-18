@@ -15,7 +15,7 @@ export default function Sidebar() {
             <InlineSVG
               src="/images/icons/home.svg"
               width="20px"
-              height="auto"
+              height="20px"
               color="white"
             />
           </a>

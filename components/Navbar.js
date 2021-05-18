@@ -25,7 +25,7 @@ export default function Navbar() {
             src="/images/icons/filter.svg"
             color="white"
             width="20px"
-            height="auto"
+            height="20px"
           />
           <span className="filter-text">Filters</span>
         </div>
@@ -36,19 +36,19 @@ export default function Navbar() {
             src="/images/icons/guarantee.svg"
             color="white"
             width="20px"
-            height="auto"
+            height="20px"
           />
           <IconSVG
             src="/images/icons/settings.svg"
             color="white"
             width="20px"
-            height="auto"
+            height="20px"
           />
           <IconSVG
             src="/images/icons/bell.svg"
             color="white"
             width="20px"
-            height="auto"
+            height="20px"
           />
         </div>
         <div className="user">
@@ -74,8 +74,12 @@ const Styles = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 0;
     padding-right: 20px;
     flex: 1;
+    background-color: ${(props) => props.theme.lightBg};
+    border: 1px solid ${(props) => props.theme.borderColor};
+    border-radius: 30px;
   }
 
   .meta {

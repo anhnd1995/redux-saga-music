@@ -37,5 +37,15 @@ export const GlobalStyles = createGlobalStyle`
   display: block;
   max-width: 100%;
   }
+  .heading{
+    color: ${(props) => props.theme.heading};
+  }
+  .person-name {
+    margin-bottom: 5px;
+  }
+  .track-name {
+    font-size: 12px;
+    opacity: 0.6;
+  }
 
 `;
